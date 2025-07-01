@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Académico</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="dashboard">
+        <h1>📊 Dashboard Académico</h1>
+        
+        <div class="summary-stats">
+            <div class="stat-box">
+                <div class="stat-number">7,612</div>
+                <div class="stat-label">Evidencias Revisadas</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">531</div>
+                <div class="stat-label">Tickets Resueltos</div>
+            </div>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metric-card academic">
+                <div class="metric-title">🎓 Gestión Académica</div>
+                <div class="metric-item">
+                    <span class="metric-label">Hojas de vida</span>
+                    <span class="metric-value">309</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Correos equipo académico creados</span>
+                    <span class="metric-value">686</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Correos equipo académico solicitados</span>
+                    <span class="metric-value">695</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Correos actualizados en Dashboard</span>
+                    <span class="metric-value">679</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Sesiones revisadas</span>
+                    <span class="metric-value">3,189</span>
+                </div>
+            </div>
+
+            <div class="metric-card evidence">
+                <div class="metric-title">📋 Gestión de Evidencias</div>
+                <div class="metric-item">
+                    <span class="metric-label">Evidencias rechazadas</span>
+                    <span class="metric-value">6,656</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Evidencias aceptadas</span>
+                    <span class="metric-value">956</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Evidencias revisadas</span>
+                    <span class="metric-value">7,612</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Informe de evidencias</span>
+                    <span class="metric-value">1,507</span>
+                </div>
+            </div>
+
+            <div class="metric-card training">
+                <div class="metric-title">📚 Capacitaciones y Manuales</div>
+                <div class="metric-item">
+                    <span class="metric-label">Capacitaciones a estudiantes</span>
+                    <span class="metric-value">347</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Capacitaciones a docentes</span>
+                    <span class="metric-value">38</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Manuales para estudiantes</span>
+                    <span class="metric-value">4</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Manuales para equipo académico</span>
+                    <span class="metric-value">11</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Creación de manuales largos</span>
+                    <span class="metric-value">8</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Mini videos para manuales</span>
+                    <span class="metric-value">7</span>
+                </div>
+            </div>
+
+            <div class="metric-card technical">
+                <div class="metric-title">🔧 Soporte Técnico</div>
+                <div class="metric-item">
+                    <span class="metric-label">Tickets resueltos</span>
+                    <span class="metric-value">531</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Errores Bootcamps solucionados</span>
+                    <span class="metric-value">138</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Verificación de dominios</span>
+                    <span class="metric-value">150</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Inscripción y retiros campistas</span>
+                    <span class="metric-value">265</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">QA bootcamps</span>
+                    <span class="metric-value">15</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">QA sesiones bootcamps</span>
+                    <span class="metric-value">525</span>
+                </div>
+            </div>
+
+            <div class="metric-card english">
+                <div class="metric-title">🌍 Programa de Inglés</div>
+                <div class="metric-item">
+                    <span class="metric-label">Actividades inglés nivelatorio</span>
+                    <span class="metric-value">30</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Seguimiento inglés nivelatorio</span>
+                    <span class="metric-value">230</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Actividades inglés técnico</span>
+                    <span class="metric-value">30</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Propuesta inglés nivelatorio</span>
+                    <span class="metric-value">16</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Propuesta inglés técnico</span>
+                    <span class="metric-value">16</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-label">Carga contenido inglés</span>
+                    <span class="metric-value">30</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN INDEPENDIENTE DEL CHATBOT -->
+        <div class="chatbot-section">
+            <h2 class="section-title">🤖 Dashboard del Chatbot</h2>
+            
+            <div class="chatbot-summary">
+                <div class="chatbot-stat-box">
+                    <div class="stat-number">1,076</div>
+                    <div class="stat-label">Total Solicitudes</div>
+                    <div class="stat-period">(05/05/2025 - 27/06/2025)</div>
+                </div>
+                <div class="chatbot-stat-box">
+                    <div class="stat-number">88.4%</div>
+                    <div class="stat-label">Tasa de Resolución</div>
+                    <div class="stat-period">951 de 1,076</div>
+                </div>
+                <div class="chatbot-stat-box">
+                    <div class="stat-number">20.26</div>
+                    <div class="stat-label">Promedio Diario</div>
+                    <div class="stat-period">solicitudes por día</div>
+                </div>
+                <div class="chatbot-stat-box">
+                    <div class="stat-number">4.03</div>
+                    <div class="stat-label">Calificación Promedio</div>
+                    <div class="stat-period">de 1 a 5 estrellas</div>
+                </div>
+            </div>
+
+            <div class="chatbot-details-grid">
+                <div class="chatbot-card">
+                    <div class="chatbot-card-title">📊 Gestión de Solicitudes</div>
+                    <div class="metric-item">
+                        <span class="metric-label">Solicitudes resueltas</span>
+                        <span class="metric-value success">951</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Solicitudes no resueltas</span>
+                        <span class="metric-value error">74</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Solicitudes incompletas</span>
+                        <span class="metric-value warning">46</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Tickets creados por chatbot</span>
+                        <span class="metric-value">58</span>
+                    </div>
+                </div>
+
+                <div class="chatbot-card">
+                    <div class="chatbot-card-title">❓ Gestión de Preguntas</div>
+                    <div class="metric-item">
+                        <span class="metric-label">Preguntas encontradas y respondidas</span>
+                        <span class="metric-value success">824</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Preguntas no encontradas</span>
+                        <span class="metric-value error">46</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Preguntas para el chatbot realizadas</span>
+                        <span class="metric-value">178</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Grabaciones de videos para chatbot</span>
+                        <span class="metric-value">8</span>
+                    </div>
+                </div>
+
+                <div class="chatbot-card">
+                    <div class="chatbot-card-title">💬 Comunicaciones</div>
+                    <div class="metric-item">
+                        <span class="metric-label">Total comunicaciones</span>
+                        <span class="metric-value">115</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Comunicaciones por WhatsApp</span>
+                        <span class="metric-value">98</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Comunicaciones por números MAF</span>
+                        <span class="metric-value">17</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Contraseñas restablecidas</span>
+                        <span class="metric-value">13</span>
+                    </div>
+                </div>
+
+                <div class="chatbot-card">
+                    <div class="chatbot-card-title">🔥 Preguntas Más Frecuentes</div>
+                    <div class="faq-item">
+                        <div class="faq-question">¿Cómo me inscribo a un bootcamp?</div>
+                        <div class="faq-count">193 veces</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">¿Cómo accedo a la plataforma académica?</div>
+                        <div class="faq-count">146 veces</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Tengo problemas con el inicio de sesión</div>
+                        <div class="faq-count">52 veces</div>
+                    </div>
+                </div>
+
+                <div class="chatbot-card">
+                    <div class="chatbot-card-title">⭐ Calificaciones</div>
+                    <div class="metric-item">
+                        <span class="metric-label">Acciones calificadas</span>
+                        <span class="metric-value">30</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Promedio de calificaciones</span>
+                        <span class="metric-value success">4.03/5</span>
+                    </div>
+                    <div class="rating-bar">
+                        <div class="rating-fill" style="width: 80.6%"></div>
+                    </div>
+                    <div class="rating-text">Excelente satisfacción del usuario</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="charts-section">
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <h3 class="chart-title">Distribución de Evidencias</h3>
+                    <canvas id="evidencesChart"></canvas>
+                </div>
+                
+                <div class="chart-container">
+                    <h3 class="chart-title">Actividades de Capacitación</h3>
+                    <canvas id="trainingChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
