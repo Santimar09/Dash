@@ -367,3 +367,19 @@
                 font-size: 1em;
             }
         }
+       .section-title {
+           display: flex;
+           align-items: center;
+           gap: 12px;
+           margin-bottom: 20px;
+       }
+       
+       .title-icon {
+           width: 32px;
+           height: 32px;
+           flex-shrink: 0; /* Evita que se reduzca */
+       }
+       
+       .title-text {
+           line-height: 1.2;
+       }
