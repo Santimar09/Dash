@@ -58,6 +58,8 @@
         .metric-card.technical { border-left-color: #f39c12; }
         .metric-card.chatbot { border-left-color: #9b59b6; }
         .metric-card.english { border-left-color: #1abc9c; }
+        .metric-card.platform { border-left-color: #fd3db5; }
+        .metric-card.documentation { border-left-color: #c4a484; }
 
         .metric-title {
             font-size: 1.2em;
