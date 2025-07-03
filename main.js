@@ -48,11 +48,11 @@
         new Chart(trainingCtx, {
             type: 'bar',
             data: {
-                labels: ['Estudiantes', 'Docentes', 'Manuales Est.', 'Manuales Eq.Academ'],
+                labels: ['Estudiantes', 'Docentes', 'Manuales y videos'],
                 datasets: [{
                     label: 'Cantidad',
-                    data: [719, 345, 4, 11],
-                    backgroundColor: ['#9b59b6', '#1abc9c', '#f39c12', '#e74c3c'],
+                    data: [719, 345, 30],
+                    backgroundColor: ['#9b59b6', '#1abc9c', '#f39c12'],
                     borderWidth: 2,
                     borderColor: '#fff'
                 }]
