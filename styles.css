@@ -371,13 +371,20 @@
                 font-size: 1em;
             }
         }
-       .section-title {
-           display: flex;
-           align-items: center;
+       .chatbot-section .section-title {
+           display: flex !important;
+           align-items: center !important;
+           justify-content: center !important;
            gap: 12px;
            margin-bottom: 20px;
+           text-align: center; /* Por si acaso */
        }
        
+       .chatbot-section .title-icon {
+           width: 32px;
+           height: 32px;
+           flex-shrink: 0;
+       }
        .title-icon {
            width: 3em;
            height: 3em;
