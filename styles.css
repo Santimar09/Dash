@@ -36,8 +36,8 @@
        }
 
        .main-title-icon {
-           width: 5em;  
-           height: 3em;
+           width: 10px;  
+           height: auto;
            flex-shrink: 0;
        }
        
