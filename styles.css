@@ -377,7 +377,7 @@
        .title-icon {
            width: 3em;
            height: 3em;
-           flex-shrink: 0; /* Evita que se reduzca */
+           flex-shrink: 0; 
        }
        
        .title-text {
