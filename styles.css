@@ -375,8 +375,8 @@
        }
        
        .title-icon {
-           width: 32px;
-           height: 32px;
+           width: 3em;
+           height: 3em;
            flex-shrink: 0; /* Evita que se reduzca */
        }
        
